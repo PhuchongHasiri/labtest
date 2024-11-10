@@ -3,6 +3,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
+from sklearn.preprocessing import LabelEncoder
 
 # Load the model and encoders from the pickle file
 with open('model_penguin_65130701931.pkl', 'rb') as file:
